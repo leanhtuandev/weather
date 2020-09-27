@@ -81,6 +81,11 @@ input:focus {
     font-size: 30px;
     text-shadow: 2px 5px 2px black;
 }
+@media screen and (min-height: 769px) {
+    .app-weather {
+        margin-top: 100px;
+    }
+}
 
 @keyframes fadeIn {
     from {
